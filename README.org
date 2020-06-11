@@ -1,0 +1,9 @@
+* pls
+
+Quickly play files from the command line.
+
+* Dependencies
+- =ffplay=
+
+* Installation
+dont do it yet

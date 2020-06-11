@@ -1,0 +1,17 @@
+* todo pls
+** Player
+*** +figure out if =ffplay= can pause, seek etc+
+**** update: nope
+*** Better idea: have a look at =ffi/unsafe= and try to make bindings for =ffmpeg=
+**** Learn this stuff
+**** Learn ffmpeg bindings for audio
+** Interface
+*** Create the command line interface
+**** Current proposal
+#+BEGIN_SRC 
+$ pls /path/to/file.mp3  # plays the song
+[display metadata]
+[SPC] pause/play | [</>] seek | [n]ext | [p]rev
+
+pls peek /path/to/file.mp3  # preview track
+#+END_SRC
