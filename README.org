@@ -1,9 +1,14 @@
 * pls
 
-Quickly play files from the command line.
++Quickly play files from the command line.+
+Nope. I tried. Turns out this is unreasonably hard in racket due to the lack of high level enough simple sound libraries. There is not even proper bindings I could find for something that plays raw sound.
+
+So what now?
+I shall now take on the hard path of writing libsndfile bindings myself. I have no experience with this stuff. Wish me luck. I might fail lol.
 
 * Dependencies
-- =ffplay=
+  - =libsndfile?=
+Subject to change
 
 * Installation
-dont do it yet
+dont 
