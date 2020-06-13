@@ -6,6 +6,7 @@
     - +Learn ffmpeg bindings for audio+ nope too insane. Will need to use a simpler library.
 - Attempt =vlc= racket package. Failed miserably. Looks like there is no escaping the dirty low level stuff.
 - Make this project into bindings for libsnd instead of a music player??
+  - Current potential candidates for a bind: libsndfile, libsoundio, minimp3, miniaudio (both single header), libvlc(???)
   
 ** Interface
    Create the command line interface
