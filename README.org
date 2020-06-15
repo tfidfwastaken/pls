@@ -1,2 +1,4 @@
-* [indefinite hiatus]
-This project will be shelved until there is a really nice high-level binding for audio libraries in racket. Maybe I'll write one someday. When that happens I'll get back to this.
+* pls
+This project will be +shelved until there is a really nice high-level binding for audio libraries in racket+ made with portaudio. 
+
+Currently held up because I am trying to figure out how to decode audio.
